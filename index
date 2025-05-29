@@ -1,18 +1,18 @@
-<!DOCTYPE html> <!-- Indica el tipo de documento HTML -->
-<html lang="es"> <!-- El idioma principal del contenido es español -->
+<!DOCTYPE html> 
+<html lang="es"> 
 
 <head>
-  <meta charset="UTF-8"> <!-- Establece la codificación de caracteres como UTF-8 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que el sitio sea responsive -->
-  <title>Proyecto Flexbox Responsive</title> <!-- Título que se muestra en la pestaña del navegador -->
-  <link rel="stylesheet" href="style.css"> <!-- Vincula la hoja de estilos externa -->
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Lando Norris Tienda Oficial</title> 
+  <link rel="stylesheet" href="style.css"> 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Fuente Roboto desde Google Fonts -->
 </head>
 
 <body>
   <!-- Encabezado principal del sitio -->
   <header>
-    <h1>Mi Sitio Web</h1> <!-- Título del sitio web -->
+    <h1>TIENDA OFICIAL</h1> 
     <nav> <!-- Navegación principal -->
       <ul>
         <li><a href="#inicio">Inicio</a></li> <!-- Enlace a la sección de inicio -->
@@ -27,7 +27,7 @@
     <!-- Sección de bienvenida -->
     <section id="inicio">
       <h2>Bienvenidos</h2> <!-- Título de la sección -->
-      <img src="https://picsum.photos/800/400" alt="Imagen bienvenida"> <!-- Imagen decorativa -->
+      <img src="https://landonorris.store/cdn/shop/files/3-Desktop_1920x@2x.jpg?v=1746094099" alt="Imagen bienvenida"> <!-- Imagen decorativa -->
       <p>Descubrí nuestros productos exclusivos.</p> <!-- Texto introductorio -->
     </section>
 
@@ -36,16 +36,16 @@
       <h2>Productos</h2> <!-- Título de la sección -->
       <div class="productos-container"> <!-- Contenedor de los productos -->
         <div class="producto"> <!-- Primer producto -->
-          <img src="https://picsum.photos/150" alt="Producto 1"> <!-- Imagen del producto -->
-          <p>Producto 1</p> <!-- Descripción del producto -->
+          <img src="https://landonorris.store/cdn/shop/files/CORE_HOODIE_BROWN_FRONT_600x@2x.jpg?v=1744127091" alt="Producto 1"> <!-- Imagen del producto -->
+          <p>BUZO COLOR MARRÓN LN4</p> <!-- Descripción del producto -->
         </div>
         <div class="producto"> <!-- Segundo producto -->
-          <img src="https://picsum.photos/150" alt="Producto 2">
-          <p>Producto 2</p>
+          <img src="https://landonorris.store/cdn/shop/files/BLACK-CAP-FRONT_0de74a06-0002-4be1-ba0b-d14ce8590513_600x@2x.png?v=1724858038" alt="Producto 2">
+          <p>GORRA NEGRA LN4</p>
         </div>
         <div class="producto"> <!-- Tercer producto -->
-          <img src="https://picsum.photos/150" alt="Producto 3">
-          <p>Producto 3</p>
+          <img src="https://landonorris.store/cdn/shop/files/BLACK_KNITTED_JUMPER_01_600x@2x.jpg?v=1739287785" alt="Producto 3">
+          <p>SWEATER NEGRO LN4</p>
         </div>
       </div>
     </section>
